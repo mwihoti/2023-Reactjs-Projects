@@ -5,6 +5,7 @@ import About from './components/pages/About';
 import Home from './components/pages/Home';
 import Pricing from './components/pages/Pricing';
 import Contact from './components/pages/contact';
+import Footer from './components/inc/footer';
 import './App.css';
 function App() {
   return (
@@ -20,10 +21,15 @@ function App() {
 
           
 
+          
+
          
         </Routes>
+        <Footer/> 
+       
       </div>
     </Router>
+   
   );
 }
 

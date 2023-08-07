@@ -7,7 +7,7 @@ import logo2 from './movers2.jpg';
 function Slider () {
     return(
 
-    <div id="carouselExampleCaptions" class="carousel slide w-100" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide w-100 h-50 " data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -15,7 +15,7 @@ function Slider () {
   </div>
   <div class="carousel-inner  w-100">
     <div class="carousel-item active w-100">
-      <img src={logo1} class="d-block w-100 h-5" alt="..."/>
+      <img src={logo1} class="d-block w-100 h-50" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
