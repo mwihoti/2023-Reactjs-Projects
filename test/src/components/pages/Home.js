@@ -1,7 +1,6 @@
 import React from 'react';
 import Slider from '../inc/slider';
 import { Link } from 'react-router-dom';
-import Vmc from './vmc'
 import logo4 from '../inc/movers4.jpg'
 function Home() {
     return (
@@ -13,7 +12,7 @@ function Home() {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12 text-center'>
-                            <h3 className='main-heading'>Our company</h3>
+                            <h3 className='main-heading'>Home-movers KE</h3>
                             <div className='underline mx-auto'></div>
                             <p>
                                 Have you ever wonder, thinking that why do people move? What are the reasons that influence them to leave their familiar place to a completely new destination? I do not know about others, but I wondered and I was searching for the reasons. What I found made me surprised...
@@ -26,8 +25,7 @@ function Home() {
                 </div>
             </section>
 
-            {/*Our vision, mission and values */}
-            <Vmc />
+           
             {/*Our services*/}
 
             <section className='section border-top'>

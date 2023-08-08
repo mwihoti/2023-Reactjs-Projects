@@ -12,7 +12,7 @@ function Nav_bar() {
     <>
       <Navbar expand="lg" dark bg="dark" mb="3">
         <Navbar.Brand href="#">
-          <img src={logo} alt="Bootstrap" width="50" height="50" />
+          <img src={logo} alt="Bootstrap" width="70" height="60" />
 
         </Navbar.Brand>
         <Navbar.Toggler target="#navbarColor1" />
