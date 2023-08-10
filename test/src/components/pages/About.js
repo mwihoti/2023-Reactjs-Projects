@@ -1,5 +1,6 @@
 import React from 'react';
 import Vmc from './vmc';
+import logo from '../inc/movers.jpg'
 
 
 function About() {
@@ -18,6 +19,9 @@ function About() {
                         </div>
 
                     </div>
+                </div>
+                <div className='d-flexjustify-content-center align-items-center'>
+                <img src={logo} />
                 </div>
                  {/*Our vision, mission and values */}
             <Vmc />

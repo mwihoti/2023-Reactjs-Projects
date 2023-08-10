@@ -10,14 +10,14 @@ import { Link } from 'react-router-dom';
 function Nav_bar() {
   return (
     <>
-      <Navbar expand="lg" dark bg="dark" mb="3">
+      <Navbar expand="lg" dark bg="dark" mb="2" >
         <Navbar.Brand href="#">
           <img src={logo} alt="Bootstrap" width="70" height="60" />
 
         </Navbar.Brand>
         <Navbar.Toggler target="#navbarColor1" />
         <Collapse navbar id="navbarColor1">
-          <Navbar.Nav mr="auto">
+          <Navbar.Nav className='ms-auto '>
             <Link to="/" class="nav-link active ">Home</Link>
             <Link to="/about" class="nav-link active ">About</Link>
             <Link to="/contact" class="nav-link active">Contact</Link>
